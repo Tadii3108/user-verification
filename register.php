@@ -5,15 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
     
     <div class="container">
         <div class="row">
-            <div class="col-md-4 offset-md-4">
+            <div class="col-md-4 offset-md-4 form-div">
                 <form action="signup.php" method="post">
-                    <h3 class="text-centre">Sign Up</h3>
+                    <h3 class="text-center">Sign Up</h3>
+
+                    <!--<div class="alert alert-danger">
+                    <li>Username required</li>
+                    </div>-->
 
                     <div class="form-group">
                         <label for="username">Username</label>
